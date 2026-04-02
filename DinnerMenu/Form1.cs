@@ -30,7 +30,6 @@ namespace DinnerMenu
 
         private void soupButton_Click(object sender, EventArgs e)
         {
-            MenuTextBox.SelectionAlignment = HorizontalAlignment.Center;
             MenuTextBox.Text = "Beef Soup straight from the can";
         }
 
