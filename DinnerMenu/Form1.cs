@@ -15,6 +15,8 @@ namespace DinnerMenu
         public Form1()
         {
             InitializeComponent();
+            //Centers all text within the menu text box
+            MenuTextBox.SelectionAlignment = HorizontalAlignment.Center;
         }
 
         private void saladButton_Click(object sender, EventArgs e)
@@ -24,6 +26,7 @@ namespace DinnerMenu
 
         private void soupButton_Click(object sender, EventArgs e)
         {
+            MenuTextBox.SelectionAlignment = HorizontalAlignment.Center;
             MenuTextBox.Text = "Beef Soup straight from the can";
         }
 

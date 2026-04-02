@@ -44,9 +44,10 @@
             Menu.AccessibleName = "Label";
             Menu.AutoSize = true;
             Menu.Enabled = false;
-            Menu.Location = new System.Drawing.Point(367, 16);
+            Menu.Font = new System.Drawing.Font("Niagara Engraved", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            Menu.Location = new System.Drawing.Point(334, 22);
             Menu.Name = "Menu";
-            Menu.Size = new System.Drawing.Size(90, 16);
+            Menu.Size = new System.Drawing.Size(127, 40);
             Menu.TabIndex = 6;
             Menu.Text = "Savage Diner";
             // 
@@ -102,10 +103,11 @@
             // 
             this.MenuTextBox.AccessibleDescription = "Dispaly\'s ";
             this.MenuTextBox.AccessibleName = "Menu";
-            this.MenuTextBox.Font = new System.Drawing.Font("Palatino Linotype", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MenuTextBox.Location = new System.Drawing.Point(22, 35);
+            this.MenuTextBox.Font = new System.Drawing.Font("Palatino Linotype", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MenuTextBox.Location = new System.Drawing.Point(22, 65);
             this.MenuTextBox.Name = "MenuTextBox";
-            this.MenuTextBox.Size = new System.Drawing.Size(742, 297);
+            this.MenuTextBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.MenuTextBox.Size = new System.Drawing.Size(742, 267);
             this.MenuTextBox.TabIndex = 4;
             this.MenuTextBox.TabStop = false;
             this.MenuTextBox.Text = "";
